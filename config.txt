@@ -1,0 +1,15 @@
+How to Configure and Use This Script:
+Command Lists:
+
+owo_commands: List all commands with a 25-second cooldown. Add or remove commands as needed.
+pls_commands: List all Pls commands. Commands "Pls hunt" and "Pls dig" have a 35-second cooldown, while "Pls beg" and "owoz" have a 45-second cooldown.
+
+Cooldowns:
+
+Adjust the cooldown values in the script if needed.
+Update the last_owo_times and last_pls_times dictionaries with the desired cooldown values.
+
+Execution:
+
+The script will wait for 5 seconds before starting to allow you to switch to the window where the commands should be sent.
+It randomly selects and sends commands while adhering to their cooldowns and prints out the status.
