@@ -1,3 +1,5 @@
+# Made by ThuyaCS
+
 import pyautogui
 import time
 import random
